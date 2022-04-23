@@ -1,0 +1,17 @@
+#define Light
+#include "solarized-dark.xdefaults"
+
+#if 0
+#include "solarized.palette"
+
+vim*theme:					solarized
+wallpaper:					geom
+dwm*barSingleBg:			1
+dwm*borderpx:				6
+dwm*foreground:				S_base3
+dwm*background:				S_base03
+dwm*border:					S_base02
+dwm*selforeground:			S_base3
+dwm*selbackground:			#d6cca9		// custom color
+dwm*selborder:				#d6cca9		// custom color
+#endif

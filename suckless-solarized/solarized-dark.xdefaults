@@ -1,0 +1,50 @@
+#include "solarized.palette"
+
+#ifndef Light
+
+#define S_base04		#174956		// selenized dark bg1
+#define S_base4			#e9e4d0		// custom color
+qutebrowser*theme:			solarized-dark-qutebrowser
+
+#else
+
+#define S_base04		#e9e4d0		// custom color
+#define S_base4			#174956		// selenized dark bg1
+qutebrowser*theme:			solarized-light-qutebrowser
+
+#endif
+
+wallpaper:					cubes
+vim*theme:					solarized
+
+dwm*barSingleBg:			1
+dwm*borderpx:				6
+dwm*foreground:				S_base0
+dwm*background:				S_base03
+dwm*border:					S_base02
+dwm*selforeground:			S_base1
+dwm*selbackground:			S_base04
+dwm*selborder:				S_base04
+st*boldIsBright:			0
+st*cursorColor:				S_base1
+st*revCurColor:				S_base01
+dmenu*foreground:			S_base0
+dmenu*background:			S_base03
+dmenu*selforeground:		S_base3
+dmenu*selbackground:		S_base02
+tabbed*foreground:			S_base0
+tabbed*background:			S_base02
+tabbed*selforeground:		S_base3
+tabbed*selbackground:		S_base03
+
+// dwm*border:					#002733		// custom color
+// dwm*border:					#103c48		// selenized dark bg0
+// dwm*selbackground:			#234D59		// LAB (30, -12, -12)
+// dwm*selborder:				#234D59		// LAB (30, -12, -12)
+// dwm*selbackground:			S_base02
+// dwm*selborder:				S_base02
+// dwm*selborder:				#0a4c5c		// custom color
+
+// https://ethanschoonover.com/solarized/
+// https://observer.com/2015/02/meet-the-man-behind-solarized-the-most-important-color-scheme-in-computer-history/
+// https://www.wired.com/story/very-mathematical-history-perfect-color-combination/
