@@ -1,6 +1,5 @@
 #define Light
 #include "solarized-dark.xdefaults"
-
 #if 0
 #include "solarized.palette"
 
